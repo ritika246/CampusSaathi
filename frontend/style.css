@@ -1,0 +1,455 @@
+
+/* ------------------------------
+   GLOBAL STYLES
+------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background:
+        radial-gradient(circle at top left, #e0e7ff, transparent 40%),
+        radial-gradient(circle at bottom right, #e9d5ff, transparent 40%),
+        #f5f3ff;
+
+    min-height: 100vh;
+    color: #1e1b4b;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 18px 15px;
+}
+
+
+/* ------------------------------
+   HEADER
+------------------------------ */
+
+.header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.brand-icon {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.header h1 {
+    font-size: 43px;
+    font-weight: 800;
+
+    background: linear-gradient(90deg, #4338ca, #7c3aed);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    letter-spacing: -1px;
+}
+
+.tagline {
+    color: #64748b;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 16px;
+    padding: 8px 15px;
+
+    background: #ede9fe;
+    color: #5b21b6;
+
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.online-dot {
+    width: 8px;
+    height: 8px;
+
+    background: #10b981;
+    border-radius: 50%;
+
+    box-shadow: 0 0 8px #10b981;
+}
+
+
+/* ------------------------------
+   MAIN CARD
+------------------------------ */
+
+.chat-box {
+    width: 100%;
+    max-width: 690px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    padding: 34px;
+    border-radius: 24px;
+
+    border: 1px solid #e9e5ff;
+
+    box-shadow:
+        0 20px 60px rgba(79, 70, 229, 0.10),
+        0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+
+/* ------------------------------
+   WELCOME SECTION
+------------------------------ */
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.assistant-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 12px;
+
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    color: white;
+
+    border-radius: 15px;
+    font-size: 25px;
+
+    box-shadow: 0 6px 18px rgba(99, 102, 241, 0.25);
+}
+
+.chat-box h2 {
+    color: #312e81;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* ------------------------------
+   LANGUAGE SELECTION
+------------------------------ */
+
+.language-section {
+    margin-bottom: 27px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #312e81;
+}
+
+select {
+    width: 100%;
+    padding: 14px 15px;
+
+    background: #fafaff;
+    color: #1e293b;
+
+    border: 1px solid #d8d5f5;
+    border-radius: 12px;
+
+    font-size: 15px;
+    outline: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+
+/* ------------------------------
+   MICROPHONE SECTION
+------------------------------ */
+
+.mic-section {
+    text-align: center;
+    padding: 12px 0 30px;
+}
+
+.mic-decoration {
+    width: 75px;
+    height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 18px;
+
+    background: linear-gradient(135deg, #ede9fe, #dbeafe);
+    border-radius: 50%;
+
+    font-size: 34px;
+
+    box-shadow: 0 5px 20px rgba(99, 102, 241, 0.12);
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+
+    padding: 15px 25px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+#recordBtn {
+    background: linear-gradient(110deg, #4338ca, #7c3aed);
+    color: white;
+
+    min-width: 230px;
+
+    box-shadow: 0 7px 18px rgba(79, 70, 229, 0.25);
+}
+
+#recordBtn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 23px rgba(79, 70, 229, 0.32);
+}
+
+#recordBtn:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+#recordBtn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+#status {
+    margin-top: 15px;
+    color: #64748b;
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    min-height: 22px;
+}
+
+
+/* ------------------------------
+   QUESTION AND ANSWER
+------------------------------ */
+
+.result-section {
+    background: #f8f9ff;
+
+    padding: 23px;
+    border-radius: 17px;
+
+    border: 1px solid #eeedff;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.section-icon {
+    font-size: 19px;
+}
+
+.result-section h3 {
+    color: #4338ca;
+    font-size: 19px;
+}
+
+.result-section p {
+    background: white;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 11px;
+
+    padding: 15px;
+
+    min-height: 52px;
+    margin-bottom: 25px;
+
+    color: #334155;
+    font-size: 15px;
+    line-height: 1.7;
+
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+}
+
+.answer-heading {
+    margin-top: 5px;
+}
+
+#answer {
+    background: #ffffff;
+    border-left: 4px solid #8b5cf6;
+}
+
+
+/* ------------------------------
+   PLAY BUTTON
+------------------------------ */
+
+#playBtn {
+    background: #059669;
+    color: white;
+
+    padding: 13px 21px;
+    font-size: 15px;
+}
+
+#playBtn:hover:not(:disabled) {
+    background: #047857;
+    transform: translateY(-1px);
+}
+
+#playBtn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+
+/* ------------------------------
+   PRIVACY NOTE
+------------------------------ */
+
+.privacy-note {
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+
+footer {
+    text-align: center;
+
+    padding: 28px 15px 15px;
+
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+footer strong {
+    color: #4f46e5;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* ------------------------------
+   MOBILE RESPONSIVENESS
+------------------------------ */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 25px 12px 10px;
+    }
+
+    .header {
+        margin-bottom: 22px;
+    }
+
+    .header h1 {
+        font-size: 34px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .chat-box {
+        padding: 23px 17px;
+        border-radius: 19px;
+    }
+
+    .chat-box h2 {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .result-section {
+        padding: 17px;
+    }
+
+    .result-section h3 {
+        font-size: 17px;
+    }
+
+    #recordBtn {
+        width: 100%;
+        min-width: unset;
+    }
+
+    #playBtn {
+        width: 100%;
+    }
+}
+
+
+/* ------------------------------
+   REDUCED MOTION
+------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}

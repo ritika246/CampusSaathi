@@ -1,0 +1,82 @@
+
+{
+  "college": "BVRIT Hyderabad College of Engineering for Women",
+  "faqs": [
+    {
+      "question": "Which college is this?",
+      
+"alternatives": [
+  "What is the name of this college?",
+  "Can you tell me the college name?",
+  "Name of this college",
+  "ఇది ఏ కాలేజీ?",
+  "ఈ కాలేజీ పేరు ఏమిటి?",
+  "ఇది ఏ కళాశాల?",
+  "यह कौन सा कॉलेज है?",
+  "ये कौन सा कॉलेज है?",
+  "ये कौन-सा कॉलेज है?",
+  "इस कॉलेज का नाम क्या है?",
+  "कॉलेज का नाम बताइए",
+  "मुझे कॉलेज का नाम बताइए"
+],
+
+      "answer": "This is BVRIT Hyderabad College of Engineering for Women.",
+      "answers": {
+        "en-IN": "This is BVRIT Hyderabad College of Engineering for Women.",
+        "te-IN": "ఇది బి వీ ఆర్ ఐ టీ హైదరాబాద్ కాలేజ్ ఆఫ్ ఇంజినీరింగ్ ఫర్ విమెన్ కళాశాల.",
+        "hi-IN": "यह बी वी आर आई टी हैदराबाद कॉलेज ऑफ इंजीनियरिंग फॉर विमेन है।"
+      }
+    },
+    {
+  "question": "Tell me about placements",
+  "alternatives": [
+    "Where can I find placement information?",
+    "Where can I get placement details?",
+    "How can I contact the placement cell?",
+    "Tell me about placements",
+    "Give me some information about the placements",
+    "Give me placement details",
+    "Which companies visit our college?",
+    "Which companies recruit students?",
+    "Where can I check placement records?",
+    "What is the placement process?",
+    "Are internship opportunities available?",
+    "ప్లేస్‌మెంట్ సమాచారం ఎక్కడ దొరుకుతుంది?",
+    "ప్లేస్‌మెంట్ వివరాలు ఎలా తెలుసుకోవాలి?",
+    "ప్లేస్‌మెంట్స్ గురించి చెప్పండి",
+    "మా కాలేజీలో ఏ కంపెనీలు వస్తాయి?",
+    "प्लेसमेंट की जानकारी कहाँ मिलेगी?",
+    "प्लेसमेंट की जानकारी कैसे प्राप्त करें?",
+    "हमारे कॉलेज में कौन सी कंपनियाँ आती हैं?",
+    "प्लेसमेंट के बारे में बताइए"
+  ],
+  "answer": "BVRIT Hyderabad provides placement-related information through its Training and Placement Cell. The official college website includes placement records for different batches, the placement process, internship opportunities, and employability skills information. You can visit https://bvrithyderabad.edu.in/placements/placement-details/ for company-wise placement details.",
+  "answers": {
+    "en-IN": "BVRIT Hyderabad provides placement-related information through its Training and Placement Cell. The official college website includes placement records for different batches, the placement process, internship opportunities, and employability skills information. You can visit https://bvrithyderabad.edu.in/placements/placement-details/ for company-wise placement details.",
+    "te-IN": "బీవీఆర్ఐటీ హైదరాబాద్‌లో ట్రైనింగ్ అండ్ ప్లేస్‌మెంట్ సెల్ ద్వారా ప్లేస్‌మెంట్ సమాచారం అందించబడుతుంది. వివిధ బ్యాచ్‌ల ప్లేస్‌మెంట్ వివరాలు, ప్లేస్‌మెంట్ ప్రక్రియ మరియు ఇంటర్న్‌షిప్ అవకాశాల కోసం కాలేజీ అధికారిక వెబ్‌సైట్‌ను సందర్శించండి.",
+    "hi-IN": "बीवीआरआईटी हैदराबाद में ट्रेनिंग एंड प्लेसमेंट सेल के माध्यम से प्लेसमेंट की जानकारी दी जाती है। अलग-अलग बैचों के प्लेसमेंट रिकॉर्ड, प्लेसमेंट प्रक्रिया और इंटर्नशिप के अवसरों के लिए कॉलेज की आधिकारिक वेबसाइट देखें।"
+  }
+}
+    ,
+    {
+      "question": "Where can I find examination updates?",
+      "alternatives": [
+        "Where can I check exam updates?",
+        "Where can I find exam schedules?",
+        "How do I get examination information?",
+        "పరీక్షల సమాచారం ఎక్కడ తెలుసుకోవాలి?",
+        "పరీక్షల షెడ్యూల్ ఎక్కడ చూడాలి?",
+        "పరీక్షల అప్‌డేట్స్ ఎలా తెలుసుకోవాలి?",
+        "परीक्षा की जानकारी कहाँ मिलेगी?",
+        "परीक्षा का टाइम टेबल कहाँ मिलेगा?",
+        "परीक्षा के अपडेट कैसे जानें?"
+      ],
+      "answer": "Please check official college announcements for examination schedules and updates.",
+      "answers": {
+        "en-IN": "Please check official college announcements for examination schedules and updates.",
+        "te-IN": "పరీక్షల షెడ్యూల్ మరియు అప్‌డేట్స్ కోసం కాలేజీ అధికారిక ప్రకటనలను చూడండి.",
+        "hi-IN": "परीक्षा की समय-सारणी और अपडेट के लिए कॉलेज की आधिकारिक घोषणाएँ देखें।"
+      }
+    }
+  ]
+}

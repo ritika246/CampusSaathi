@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusSaathi | Your Campus AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div class="brand-icon">🎓</div>
+
+            <h1>CampusSaathi</h1>
+
+            <p class="tagline">
+                Your campus. Your language. Your AI companion.
+            </p>
+
+            <div class="header-badge">
+                <span class="online-dot"></span>
+                YOUR SMART CAMPUS COMPANION
+            </div>
+
+        </header>
+
+
+        <!-- Main Assistant -->
+        <main class="chat-box">
+
+            <div class="welcome-section">
+
+                <div class="assistant-icon">✦</div>
+
+                <h2>Ask Your Campus Assistant</h2>
+
+                <p class="description">
+                    Have a question about your college?
+                    Just speak naturally. I'll help you.
+                </p>
+
+            </div>
+
+
+            <!-- Language Selection -->
+            <div class="language-section">
+
+                <label for="language">
+                    <span>🌐</span> Choose your language
+                </label>
+
+                <select id="language">
+                    <option value="te-IN">Telugu</option>
+                    <option value="en-IN">English</option>
+                    <option value="hi-IN">Hindi</option>
+                </select>
+
+            </div>
+
+
+            <!-- Voice Recording -->
+            <div class="mic-section">
+
+                <div class="mic-decoration">
+                    <span>🎙️</span>
+                </div>
+
+                <button id="recordBtn">
+                    🎤 Start Speaking
+                </button>
+
+                <p id="status">
+                    Click the button and ask your question.
+                </p>
+
+            </div>
+
+
+            <!-- Response Section -->
+            <div class="result-section">
+
+                <div class="section-heading">
+                    <span class="section-icon">💬</span>
+                    <h3>Your Question</h3>
+                </div>
+
+                <p id="transcript">
+                    Your recognized question will appear here.
+                </p>
+
+
+                <div class="section-heading answer-heading">
+                    <span class="section-icon">✨</span>
+                    <h3>CampusSaathi Answer</h3>
+                </div>
+
+                <p id="answer">
+                    Your answer will appear here.
+                </p>
+
+
+                <button id="playBtn" disabled>
+                    🔊 Play Answer
+                </button>
+
+            </div>
+
+            <p class="privacy-note">
+                🔒 Your conversation is processed through the connected
+                CampusSaathi services.
+            </p>
+
+        </main>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <p>Powered by <strong>Gnani AI</strong></p>
+
+            <p>Made with 💜 for smarter campuses</p>
+
+            <p class="copyright">
+                CampusSaathi © 2026
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
