@@ -109,7 +109,7 @@ async function sendAudioToBackend(recordedAudio) {
         statusText.textContent = "Sending question to CampusSaathi...";
 
         const response = await fetch(
-            `http://127.0.0.1:8000/voice-ask?language_code=${encodeURIComponent(language)}`,
+            `https://campussaathi-ea2e.onrender.com/voice-ask?language_code=${encodeURIComponent(language)}`,
             {
                 method: "POST",
                 body: formData
